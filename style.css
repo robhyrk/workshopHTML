@@ -56,52 +56,57 @@ html {
     font-family: 'Hind', sans-serif;
 }
 
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
 h1 {
-    font-size: 4em;
+    font-size: 3em;
     font-family: 'Righteous', sans-serif;
     color: #3b7ca8;
 }
 
 h2 {
-    font-size: 3.5em;
+    font-size: 2.5em;
     font-family: 'Righteous', sans-serif;
-
 }
 
 h3 {
-    font-size: 2.5em;
+    font-size: 2em;
     font-family: 'Rubik Mono One', sans-serif;
-
 }
 
 h4 {
-    font-size: 2em;
+    font-size: 1.5em;
+    font-family: 'Rubik Mono One', sans-serif;
 }
 
 h5 {
-    font-size: 1.5em;
+    font-size: 1.25em;
+    font-family: 'Rubik Mono One', sans-serif;
 }
+
+/* Custom Styles */
 
 header {
     background-color: #191919;
 }
 
 nav ul {
-    margin: auto;
     text-align: center;
-    width:66%;
 }
 
 nav ul li {
     display: inline-block;
     vertical-align: middle;
     color: white;
-    margin: 1em 2em;
+    margin: 0.25em 0.75em;
 }
 
 .hero-banner {
       background: 
-      /* top, transparent red */ 
+      /* top, transparent black */ 
       linear-gradient(
         rgba(25, 25, 25, .75), 
         rgba(25, 25, 25, .75)
@@ -136,8 +141,12 @@ nav ul li {
     text-align: center;
 }
 
-.about h2, .about h4 {
+.about h2 {
     margin: 0.5em;
+}
+
+.about h4 {
+    margin: 2em;
 }
 
 .about p {
@@ -154,6 +163,10 @@ nav ul li {
 
 .services h2 {
     margin: 0.5em 0;
+}
+
+.delivery-methods {
+    margin: 3em 0 0 0;
 }
 
 .services figure {
@@ -187,7 +200,6 @@ nav ul li {
 .faq li {
     margin: 2em 0;
     font-weight: bold;
-
 }
 
 .contact {
@@ -212,8 +224,6 @@ form {
 }
 
 form input {
-    width:33%;
-    /* height:3em; */
     border-radius: 15px;
     border: none;
     padding: 0.25em 1em;
@@ -228,6 +238,7 @@ form input[type="submit"] {
     border-radius: 15px;
     border: none;
     padding: 0.5em;
+    cursor: pointer;
 }
 
 form label {
